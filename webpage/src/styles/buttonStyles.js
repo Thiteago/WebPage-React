@@ -28,4 +28,12 @@ export const ContainerButtons = styled.div`
   justify-content: center;
   gap: 15px;
   width: 50%;
+
+  @media (max-width: 768px) {
+    width: 70%;
+  }
+
+  @media (max-width: 600px) {
+    width: 100%;
+  }
 `;

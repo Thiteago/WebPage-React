@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { Button } from "../components/button";
 
 export const ContainerContent = styled.section`
   display: flex;
@@ -17,6 +18,15 @@ export const ContainerInformation = styled.div`
   width: 95%;
   height: 100%;
   padding: 15px 0 0 5px;
+
+  @media (max-width: 992px) {
+    flex-direction: column;
+    flex-flow: column-reverse;
+
+    > div {
+      padding-top: 20px;
+    }
+  }
 `;
 
 export const ClinicalInformation = styled.div`
