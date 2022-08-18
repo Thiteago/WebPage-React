@@ -12,11 +12,13 @@ export const GlobalStyle = createGlobalStyle`
 
     a{
         text-decoration: none;
+        color: inherit
     }
 `;
 
 export const HeaderSection = styled.section`
   display: flex;
+  position: relative;
   justify-content: space-between;
   align-items: center;
   height: 60px;

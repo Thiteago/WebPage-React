@@ -29,7 +29,7 @@ export function Exams(props) {
           <div></div>
         </div>
         <p>{props.nome}</p>
-        <a>PREPARO</a>
+        <a href="/#">PREPARO</a>
       </ExamInfo>
     </>
   );
