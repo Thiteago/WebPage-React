@@ -8,6 +8,10 @@ const GlobalStyle = createGlobalStyle`
         padding: 0;
         font-family: Roboto;
     }
+
+    a{
+        text-decoration: none;
+    }
 `
 
 
