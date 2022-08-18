@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.js": "/WebPage-React/static/js/main.ee237e80.js",
+    "main.js": "/WebPage-React/static/js/main.beb5ab9e.js",
     "static/media/check.svg": "/WebPage-React/static/media/check.edf55cd62f7333c5d38f3bb87a59a6fc.svg",
     "index.html": "/WebPage-React/index.html",
     "static/media/home.svg": "/WebPage-React/static/media/home.2cbd598335bdeaed8405dd9695b4f6d0.svg",
-    "main.ee237e80.js.map": "/WebPage-React/static/js/main.ee237e80.js.map"
+    "main.beb5ab9e.js.map": "/WebPage-React/static/js/main.beb5ab9e.js.map"
   },
   "entrypoints": [
-    "static/js/main.ee237e80.js"
+    "static/js/main.beb5ab9e.js"
   ]
 }
