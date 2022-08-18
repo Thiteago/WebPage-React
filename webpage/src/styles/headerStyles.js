@@ -6,6 +6,10 @@ export const GlobalStyle = createGlobalStyle`
         font-family: Roboto;
     }
 
+    body{
+        margin: 0;
+    }
+
     a{
         text-decoration: none;
     }
@@ -23,6 +27,10 @@ export const MainLogo = styled.div`
   background-color: green;
   width: 200px;
   height: 50px;
+
+  @media (max-width: 1200px) {
+    display: none;
+  }
 `;
 
 export const ListaLinks = styled.ul`
@@ -33,6 +41,10 @@ export const ListaLinks = styled.ul`
   gap: 10px;
   text-decoration: none;
   list-style-type: none;
+
+  @media (max-width: 1200px) {
+    display: none;
+  }
 `;
 
 export const UserInfo = styled.div`
@@ -50,6 +62,12 @@ export const UserSaudation = styled.div`
 export const UserPicture = styled.div`
   > img {
     width: 70px;
+  }
+
+  @media (max-width: 1200px) {
+    > img {
+      width: 40px;
+    }
   }
 `;
 
@@ -91,4 +109,17 @@ export const ButtonMedico = styled.div`
   background-color: blue;
   padding: 15px 5px;
   color: white;
+
+  @media (max-width: 1200px) {
+    display: none;
+  }
+
+  @media (max-width: 1306px) {
+    padding: 15px 0px;
+  }
+  @media (max-width: 1296px) {
+    padding: 5px 0px;
+    width: 145px;
+    text-align: center;
+  }
 `;

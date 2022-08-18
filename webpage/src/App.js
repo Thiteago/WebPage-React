@@ -2,7 +2,6 @@ import { Header } from "./components/header";
 import { RequestedExams } from "./components/RequestedExams";
 import { Routes } from "./components/routes";
 import { Exams } from "./components/exams";
-import styled from "styled-components";
 import { Button } from "./components/button";
 
 import {
