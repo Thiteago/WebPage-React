@@ -19,7 +19,7 @@ const HeaderSection = styled.section`
     display: flex;
     align-items: center;
     height: 60px;
-    box-shadow: 1px 10px 16px -9px rgba(0,0,0,0.6);
+    box-shadow: 1px 10px 5px -9px rgba(0,0,0,0.6);
 `
 
 const MainLogo = styled.div`
