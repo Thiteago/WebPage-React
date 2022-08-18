@@ -35,5 +35,7 @@ export const ContainerButtons = styled.div`
 
   @media (max-width: 600px) {
     width: 100%;
+    font-size: 0.8em;
+    text-align: center;
   }
 `;

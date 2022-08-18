@@ -10,8 +10,11 @@ export const ButtonMedicoList = styled.div`
 export const HidedListStyle = styled.div`
   display: none;
   position: absolute;
-  bottom: -322px;
+  bottom: -365px;
   background-color: white;
+  padding-top: 15px;
+  padding-bottom: 20px;
+  box-shadow: 15px 15px 0px -7px #00b2be;
 
   &:hover {
     display: flex;

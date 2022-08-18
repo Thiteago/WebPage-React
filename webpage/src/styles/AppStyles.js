@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled, { css } from "styled-components";
 
 export const ContainerContent = styled.section`
   display: flex;
@@ -45,6 +45,12 @@ export const ClinicLocalInfo = styled.div`
   flex-direction: column;
   align-items: center;
   padding-bottom: 20px;
+
+  ${(props) =>
+    props.centralizer &&
+    css`
+      text-align: center;
+    `}
 
   > h2 {
     margin: 0;

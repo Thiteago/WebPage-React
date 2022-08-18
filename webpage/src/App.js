@@ -40,7 +40,7 @@ function App() {
                   <h2>Unidade Paulista</h2>
                   <p>Av Borba Gato, 323</p>
                 </ClinicLocalInfo>
-                <ClinicLocalInfo>
+                <ClinicLocalInfo centralizer>
                   <h2>Data mais próxima</h2>
                   <p>11/8/2022</p>
                 </ClinicLocalInfo>
