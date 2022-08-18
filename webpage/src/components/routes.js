@@ -4,6 +4,7 @@ const OtherRoutes = styled.div`
     padding: 10px 0 5px 5px;
 
     >label{
+        cursor: pointer;
         color: grey;
         font-family: Roboto;
         padding: 0 1px 0 3px;
@@ -16,7 +17,8 @@ const ActualRoute = styled.div`
     padding-left: 5px;
 
     >label{
-        color: #0000FF;
+        
+        color: #73babf;
         font-family: Roboto;
         font-size: 1.2em;
     }
