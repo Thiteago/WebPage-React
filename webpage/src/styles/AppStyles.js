@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import { Button } from "../components/button";
 
 export const ContainerContent = styled.section`
   display: flex;
@@ -21,7 +20,7 @@ export const ContainerInformation = styled.div`
   display: flex;
   box-shadow: 5px 5px 3px -3px #00b2be;
   justify-content: space-between;
-  width: 95%;
+  width: 100%;
   height: 100%;
   padding: 15px 0 0 5px;
 
