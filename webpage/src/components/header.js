@@ -14,6 +14,13 @@ import {
   UserPicture,
 } from "../styles/headerStyles";
 
+const HidedList = styled.div`
+  display: none;
+
+  @media (max-width: 1200px) {
+  }
+`;
+
 const HidedMenu = styled.div`
   display: none;
   font-family: Roboto;
@@ -26,13 +33,10 @@ const HidedMenu = styled.div`
 
   @media (max-width: 1200px) {
     display: flex;
-  }
-`;
 
-const HidedList = styled.div`
-  display: none;
-
-  @media (max-width: 1200px) {
+    &:hover ${HidedList} {
+      display: flex;
+    }
   }
 `;
 
