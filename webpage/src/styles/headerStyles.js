@@ -19,10 +19,14 @@ export const GlobalStyle = createGlobalStyle`
 export const HeaderSection = styled.section`
   display: flex;
   position: relative;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   height: 60px;
   box-shadow: 1px 10px 5px -9px rgba(0, 0, 0, 0.6);
+
+  @media (max-width: 1200px) {
+    justify-content: space-between;
+  }
 `;
 
 export const MainLogo = styled.div`

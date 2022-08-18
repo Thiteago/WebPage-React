@@ -5,9 +5,15 @@ export const ContainerContent = styled.section`
   display: flex;
   justify-content: center;
   flex-direction: column;
+  width: 1280px;
+  margin: 0 auto;
 
   > p {
     padding: 10px 5px;
+  }
+
+  @media (max-width: 1200px) {
+    width: 100%;
   }
 `;
 
